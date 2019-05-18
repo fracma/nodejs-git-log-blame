@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-git-log-blame",
+  "version": "1.0.0",
+  "description": "nodejs-git-log-blame",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jvanhouteghem/nodejs-git-log-blame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvanhouteghem/nodejs-git-log-blame/issues"
+  },
+  "homepage": "https://github.com/jvanhouteghem/nodejs-git-log-blame#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
