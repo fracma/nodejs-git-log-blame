@@ -4,6 +4,7 @@
   "description": "nodejs-git-log-blame",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/jvanhouteghem/nodejs-git-log-blame#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "git-blame": "^1.4.0",
+    "gitlog": "^3.1.2"
   }
 }
