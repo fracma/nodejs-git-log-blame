@@ -10,9 +10,9 @@ app.listen(3000, function () {
 }) */
 
 //gitBlameExample();
-gitBlame()
+gitBlameExample()
 
-function gitBlameExample() {
+function gitLogExample() {
   const gitlog = require('gitlog');
 
   const options =
@@ -44,7 +44,7 @@ function gitBlameExample() {
   console.log(commits);
 }
 
-function gitBlameExample2() {
+function gitBlameExample() {
   var gitBlame = require('git-blame');
   var path = require('path');
 
