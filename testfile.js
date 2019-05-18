@@ -1,0 +1,1 @@
+const fooVar = 2
